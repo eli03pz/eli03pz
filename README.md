@@ -36,14 +36,6 @@ I enjoy building projects from scratch using code or designing dynamic sites wit
 <br><br>
 Additionally, I have a strong focus on Requirements Engineering and the Software Development Life Cycle (SDLC), with a solid understanding of Plan-Driven approaches.
 
-<h3 align="center">📊 GitHub Stats</h3>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=eli03pz&show_icons=true&title_color=f75c7e&icon_color=f75c7e&text_color=999&bg_color=151515&hide_border=true&include_all_commits=true" alt="Eliana's Stats" />
-  
-  <br>
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eli03pz&layout=compact&text_color=999&title_color=f75c7e&bg_color=151515&hide_border=true" alt="Top Langs" />
-</p>
 
 
 <p align="center">
