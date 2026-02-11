@@ -42,3 +42,7 @@ Additionally, I have a strong focus on Requirements Engineering and the Software
   ✨ <i>"Transforming creative ideas into clean and efficient software solutions."</i>✨
 </p>
 
+<h3 align="center">📊 GitHub Stats</h3>
+<p align="center">
+  <img src="github-metrics.svg" alt="Metrics" width="100%">
+</p>
