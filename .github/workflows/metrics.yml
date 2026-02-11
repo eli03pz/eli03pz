@@ -1,10 +1,9 @@
 name: Metrics
 on:
-  # Se actualiza cada 24 horas automáticamente
+  # Se actualiza cada 24 horas
   schedule: [{cron: "0 0 * * *"}]
-  # Permite que lo ejecutes manualmente si quieres ver cambios ya
+  # Permite ejecutarlo manualmente
   workflow_dispatch:
-  # Se ejecuta cada vez que haces un cambio en el main
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -15,25 +14,28 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Tu token secreto
+          # Tu archivo se llamará github-metrics.svg
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Opciones básicas
+          
+          # Configuración Básica
           user: eli03pz
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Guayaquil
-
-          # CONFIGURACIÓN DE TU ESTILO
-          config_display: large
           
-          # Esto fuerza el modo oscuro y usa tu color rosa
+          # --- DISEÑO Y COLOR ROSA ---
+          config_display: large
           plugin_lines: yes
           plugin_lines_color: "#f75c7e"
           plugin_traffic: yes
-          
-          # Color del borde y textos (Personalización avanzada)
-          # Esto intenta imitar el estilo neon/dark
           config_style: |
              .header { color: #f75c7e; }
              .stat { color: #ffffff; }
+             .achievement-title { fill: #f75c7e !important; }
+
+          # --- AQUÍ ESTÁN LOS ACHIEVEMENTS ---
+          plugin_achievements: yes
+          plugin_achievements_display: detailed # Muestra los detalles, no solo iconos
+          plugin_achievements_secrets: yes      # Muestra logros secretos si los tienes
+          plugin_achievements_threshold: C      # Muestra desde rango C hacia arriba
