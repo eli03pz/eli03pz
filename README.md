@@ -36,7 +36,7 @@
   <br><br>
 
   <img src="https://img.shields.io/badge/Since-2023-f75c7e?style=flat-square&logo=google-calendar&logoColor=white" alt="Since 2023" />
-  <img src="https://img.shields.io/badge/Semester-5th-f75c7e?style=flat-square&logo=gitbook&logoColor=white" alt="5th Semester" />
+  <img src="https://img.shields.io/badge/Semester-5th-f75c7e?style=flat-square&logo=gitbook&logoColor=white" alt="6th Semester" />
   <br><br>
 
   Passionate about Web Development and creating functional, attractive interfaces.
